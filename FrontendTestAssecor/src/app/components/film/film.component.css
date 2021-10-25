@@ -1,0 +1,49 @@
+
+.block {
+    height: 300px;
+}
+.block img {
+    height: 65%;
+}
+.filmBlockDetailsInfo {
+    height: auto;
+}
+
+.filmBlockDetailsInfo p{
+    margin-bottom: 5px;
+}
+.filmBox {
+    height: 20%; 
+    background-color: lightgray;
+    height: 25%;
+}
+.filmBlockDetailsInfo {
+    background-color: lightgray;
+    margin-top: -7px;
+    padding: 10px;
+}
+.filmImg {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    margin-bottom: 80px;
+}
+.filmLink {
+    font-size:smaller
+}
+
+.directorText, .producerText, .releaseDateText {
+    display: inline-flex;
+}
+
+.directorText p, .producerText p, .releaseDateText p {
+    font-size: smaller;
+    margin:0;
+}
+.title {
+    font-weight:bold; 
+    font-size:large;
+}

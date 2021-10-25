@@ -1,0 +1,85 @@
+
+<div class="container">
+    <div class="characterDetailTop">
+        <p>Character Details </p>
+        <h1> {{characterDetails.name}}</h1>
+    </div>
+    <div fxLayout="row" fxLayoutGap="10px" [fxShow]="true" [fxShow.sm]="false" [fxShow.xs]="false">
+        <div style="display: inline-flex;width: 100%;">
+            <div class="characterDetails">
+                <h5>Details:</h5>
+                <div>
+                    <span>Größe: </span>
+                    <span> {{characterDetails.height}} </span>
+                </div>
+                <div>
+                    <span>Gewicht:  </span>
+                    <span>{{characterDetails.mass}}</span>
+                </div>
+                <div>
+                    <span>Haarfarbe: </span>
+                    <span>{{characterDetails.hair_color}}</span>
+                </div>
+                <div>
+                    <span>Augenfarbe:  </span>
+                    <span>{{characterDetails.eye_color}}</span>
+                </div>
+               <div>
+                <span>Geburtsjahr: </span>
+                <span>{{characterDetails.birth_year}}</span>
+               </div>
+                <div>
+                    <span>Geschlecht:  </span>
+                    <span>{{characterDetails.gender}}</span>
+                </div>
+                <div>
+                    <span>Heimatplanet:  </span>
+                    <button mat-raised-button>
+                       {{planetDetails.name}}
+                     </button>
+                </div>
+            </div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_skywalkersaga_mobile_19267_e964ed2c.jpeg?region=0,0,640,400">
+        </div>
+    </div>
+    <div fxLayout="column" fxLayoutGap="10px" [fxShow]="false" [fxShow.sm]="true" [fxShow.xs]="true">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_skywalkersaga_mobile_19267_e964ed2c.jpeg?region=0,0,640,400">
+        <div>
+            <div class="characterDetails">
+                <h5>Details:</h5>
+                <div>
+                    <span>Größe: </span>
+                    <span> {{characterDetails.height}} </span>
+                </div>
+                <div>
+                    <span>Gewicht:  </span>
+                    <span>{{characterDetails.mass}}</span>
+                </div>
+                <div>
+                    <span>Haarfarbe: </span>
+                    <span>{{characterDetails.hair_color}}</span>
+                </div>
+                <div>
+                    <span>Augenfarbe:  </span>
+                    <span>{{characterDetails.eye_color}}</span>
+                </div>
+               <div>
+                <span>Geburtsjahr: </span>
+                <span>{{characterDetails.birth_year}}</span>
+               </div>
+                <div>
+                    <span>Geschlecht:  </span>
+                    <span>{{characterDetails.gender}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

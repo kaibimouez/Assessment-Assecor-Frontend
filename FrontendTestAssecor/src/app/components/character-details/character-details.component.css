@@ -1,0 +1,27 @@
+.characterDetailTop {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.filmDetailTop h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.filmDetailBanner h5{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.characterDetails {
+    width: 50%;
+}
+
+.characterDetails h5 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.characterDetails span:nth-of-type(1){
+    font-weight: bold;
+}
+
+
